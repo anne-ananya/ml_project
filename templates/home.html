@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="UTF-8">
+<title>ML API</title>
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body>
+ <div class="login">
+	<h1>Student Score Prediction</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="/submit" method="post">
+
+        <!-- part time job<br>
+        <select id="part_time_job">
+          <option value="do">do</option>
+          <option value="donot do">donot do</option>
+        </select><br>
+
+        <input type="text" name="absence_days" placeholder="absence_days" required="required" /><br>
+        
+        extracurricular activities<br>
+        <select id="extracurricular_activities">
+          <option value="involve">involve</option>
+          <option value="not involve">not involve</option>
+        </select><br> -->
+        <input type="text" name="part_time_job(0/1)" placeholder="part_time_job(0/1)" required="required" /><br>
+
+        <input type="text" name="absence_days" placeholder="absence_days" required="required" /><br>
+
+        <input type="text" name="extracurricular activities(0/1)" placeholder="extracurricular activities(0/1)" required="required" /><br>
+
+    	<input type="text" name="math_score" placeholder="math_score" required="required" /><br>
+
+        <input type="text" name="history_score" placeholder="history_score" required="required" /><br>
+
+        <input type="text" name="physics_score" placeholder="physics_score" required="required" /><br>
+        
+        <input type="text" name="chemistry_score" placeholder="chemistry_score" required="required" /><br>
+
+        <input type="text" name="biology_score" placeholder="biology_score" required="required" /><br>
+
+        <input type="text" name="english_score" placeholder="english_score" required="required" /><br>
+
+        <input type="text" name="geography_score" placeholder="geography_score" required="required" /><br>
+
+        <input type="text" name="gender(0-male,1-female)" placeholder="gender(0-male,1-female)" required="required" /><br>
+        
+        <input type="text" name="Artist(0/1)" placeholder="Artist(0/1)" required="required" /><br>
+
+        <input type="text" name="Banker(0/1)" placeholder="Banker(0/1)" required="required" /><br>
+        <input type="text" name="Business Owner(0/1)" placeholder="Business Owner(0/1)" required="required" /><br>
+        <input type="text" name="Construction Engineer(0/1)" placeholder="Construction Engineer(0/1)" required="required" /><br>
+        <input type="text" name="Designer(0/1)" placeholder="Designer(0/1)" required="required" /><br>
+        <input type="text" name="Doctor(0/1)" placeholder="Doctor(0/1)" required="required" /><br>
+        <input type="text" name="Game Developer(0/1)" placeholder="Game Developer(0/1)" required="required" /><br>
+        <input type="text" name="Government Officer(0/1)" placeholder="Government Officer(0/1)" required="required" /><br>
+        <input type="text" name="Lawyer(0/1)" placeholder="Lawyer(0/1)" required="required" /><br>
+        <input type="text" name="Real Estate Developer(0/1)" placeholder="Real Estate Developer(0/1)" required="required" /><br>
+        <input type="text" name="Scientist(0/1)" placeholder="Scientist(0/1)" required="required" /><br>
+        <input type="text" name="Software Engineer(0/1)" placeholder="Software Engineer(0/1)" required="required" /><br>
+        <input type="text" name="Stock Investor(0/1)" placeholder="Stock Investor(0/1)" required="required" /><br>
+        <input type="text" name="Teacher(0/1)" placeholder="Teacher(0/1)" required="required" /><br>
+        <input type="text" name="Writer(0/1)" placeholder="Writer(0/1)" required="required" /><br>
+        <input type="text" name="Unknown(0/1)" placeholder="Unknown(0/1)" required="required" /><br>
+        <!-- career aspiration<br>
+        <select id="career_aspiration">
+          <option value="Artist">Artist</option>
+          <option value="Banker">Banker</option>
+          <option value="Business Owner">Business Owner</option>
+          <option value="Construction Engineer">Construction Engineer</option>
+          <option value="Designer">Designer</option>
+          <option value="Doctor">Doctor</option>
+          <option value="Game Developer">Game Developer</option>
+          <option value="Government Officer">Government Officer</option>
+          <option value="Lawyer">Lawyer</option>
+          <option value="Real Estate Developer">Real Estate Developer</option>
+          <option value="Scientist">Scientist</option>
+          <option value="Software Engineer">Software Engineer</option>
+          <option value="Stock Investor">Stock Investor</option>
+          <option value="Teacher">Teacher</option>
+          <option value="Writer">Writer</option>
+          <option value="Unknown">Unknown</option> -->
+        </select><br>
+                
+
+       
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">submit</button>
+    </form>
+
+   <br>
+   <br>
+  
+   
+ </div>
+ <!-- show prediction -->
+
+</body>
+</html>
